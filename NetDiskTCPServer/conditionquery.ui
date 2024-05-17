@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>conditionQuery</class>
+ <widget class="QWidget" name="conditionQuery">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>934</width>
+    <height>620</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>日志查询</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../NetDiskTCPClient/icon.qrc">
+    <normaloff>:/icon/fileServer.png</normaloff>:/icon/fileServer.png</iconset>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>891</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="nameQueryBtn">
+        <property name="text">
+         <string>按用户名查询</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>:/icon/name.png</normaloff>:/icon/name.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="idQueryBtn">
+        <property name="text">
+         <string>按用户ID查询</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>:/icon/id.png</normaloff>:/icon/id.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="queryLogBtn">
+        <property name="text">
+         <string>查询服务记录</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>:/icon/log.png</normaloff>:/icon/log.png</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="logTable"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

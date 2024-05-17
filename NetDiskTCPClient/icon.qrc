@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/dir.jpeg</file>
+        <file>icon/file.jpeg</file>
+        <file>icon/file.png</file>
+        <file>icon/friend.png</file>
+        <file>icon/deleteFriend .png</file>
+        <file>icon/talkFriend.png</file>
+        <file>icon/updateFriend .png</file>
+        <file>icon/onlineFriend.png</file>
+        <file>icon/sendMsg.png</file>
+        <file>icon/findUser.png</file>
+        <file>icon/onlineUser.png</file>
+        <file>icon/contentsBtn.png</file>
+        <file>icon/createDirBtn.png</file>
+        <file>icon/deleteBtn.png</file>
+        <file>icon/downloadFileBtn.png</file>
+        <file>icon/moveBtn.png</file>
+        <file>icon/reNameBtn.png</file>
+        <file>icon/returnBtn.png</file>
+        <file>icon/shareFileBtn.png</file>
+        <file>icon/updateBtn.png</file>
+        <file>icon/uploadFileBtn.png</file>
+        <file>icon/fileServer.png</file>
+        <file>icon/logout.png</file>
+        <file>icon/login.png</file>
+        <file>icon/regist.png</file>
+        <file>icon/ok.png</file>
+        <file>icon/selectAll.png</file>
+        <file>icon/cancle.png</file>
+        <file>icon/cancleSelect.png</file>
+    </qresource>
+</RCC>
